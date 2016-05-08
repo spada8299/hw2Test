@@ -10,14 +10,14 @@ provides-member:
 - ["V7hw2Test4Line", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- !private "StringLiteralType"
-- "String"
-- !private "<-"
-- "Mappable"
 - "Map"
 - "Line"
 - "Double"
 - "Station"
+- "String"
+- !private "<-"
+- !private "StringLiteralType"
+- "Mappable"
 depends-member:
 - !private ["Ps9AnyObject", "subscript"]
 - !private ["Sa", "deinit"]

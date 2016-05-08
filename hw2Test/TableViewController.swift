@@ -18,14 +18,15 @@ class TableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        // load MRT.json in
         let bundle = NSBundle.mainBundle()
         let path = bundle.pathForResource("MRT", ofType: "json")!
         let jsonContent = try! String(contentsOfFile: path)
-        //print(jsonContent)
         
+        // Mapper
         self.MRTstations = Mapper<Station>().mapArray(jsonContent)!
-        //print(self.MRTstations[0].lines)
         
+        // create a dictionary of lines
         for station in MRTstations {
             for lineName in station.lines.keys {
                 if (self.lineDict[lineName] == nil) {
@@ -35,22 +36,20 @@ class TableViewController: UITableViewController {
             }
         }
         
-        //print(self.lineDict["板南線"])
-        
+        // use line dictionary to create line array
         self.lines = []
         
         for (lineName, stations) in lineDict {
             self.lines.append(Line(name: lineName, stations: stations))
         }
         
+        // sort the stations in line by station number in property lines
         for index in 0...(lines.count-1) {
             let lineName =  lines[index].name
             lines[index].stations = lines[index].stations.sort { (stationA: Station, stationB: Station) -> Bool in
                 return stationA.lines[lineName] < stationB.lines[lineName]
             }
         }
-        
-        print(self.lines[3])
 
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
@@ -84,7 +83,6 @@ class TableViewController: UITableViewController {
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCellWithIdentifier("Cell", forIndexPath: indexPath) as! MyTableViewCell
         
-        //let line = self.lines[indexPath.section]
         let station = self.lines[indexPath.section].stations[indexPath.row]
         
         let keys = [String](station.lines.keys)
@@ -105,15 +103,19 @@ class TableViewController: UITableViewController {
             cell.lineNumLabel.backgroundColor = pickLineColor(keys[0])
             cell.lineNumLabel2.alpha = 0.0
         }
-        //cell.lineNumLabel.text = station.lines[line.name]
-        //cell.lineNumLabel.backgroundColor = UIColor(red: 203.0/255.0, green: 44.0/255.0, blue: 48.0/255.0, alpha: 1.0)
-        //cell.lineNumLabel2.alpha = 0.00
+        
+        // label corner radius
+        cell.lineNumLabel.layer.masksToBounds = true
+        cell.lineNumLabel.layer.cornerRadius = 6.0
+        cell.lineNumLabel2.layer.masksToBounds = true
+        cell.lineNumLabel2.layer.cornerRadius = 6.0
 
         // Configure the cell...
 
         return cell
     }
     
+    // MARK : - MRT line colors
     func pickLineColor (lineName: String) -> UIColor {
         switch lineName {
         case "文湖線":

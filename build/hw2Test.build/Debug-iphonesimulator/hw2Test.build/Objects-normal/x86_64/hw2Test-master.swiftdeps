@@ -1,9 +1,9 @@
 version: "Apple Swift version 2.2 (swiftlang-703.0.18.1 clang-703.0.29)"
 options: "42d8f969284c3f495bcaa4dc3429493f"
-build_time: [516016607, 810709000]
+build_time: [516032652, 693372000]
 inputs:
   "/Users/spadakao/Documents/ios/hw2Test/hw2Test/ViewController.swift": [516016604, 0]
   "/Users/spadakao/Documents/ios/hw2Test/hw2Test/MyTableViewCell.swift": [516013186, 0]
-  "/Users/spadakao/Documents/ios/hw2Test/hw2Test/TableViewController.swift": [516015228, 0]
+  "/Users/spadakao/Documents/ios/hw2Test/hw2Test/TableViewController.swift": [516032393, 0]
   "/Users/spadakao/Documents/ios/hw2Test/hw2Test/AppDelegate.swift": [515143243, 0]
   "/Users/spadakao/Documents/ios/hw2Test/hw2Test/MRTstation.swift": [515940163, 0]

@@ -6,25 +6,25 @@ provides-nominal:
 provides-member:
 - ["C7hw2Test14ViewController", ""]
 provides-dynamic-lookup:
-- "stationNameLabel"
 - "fillData"
 - "lineNameLabel1"
 - "pickLineColor"
+- "stationNameLabel"
 - "viewDidLoad"
-- "didReceiveMemoryWarning"
 - "lineNameLabel2"
+- "didReceiveMemoryWarning"
 depends-top-level:
 - !private "StringLiteralType"
-- "String"
-- "UILabel"
+- !private "/"
 - "Station"
 - !private "~="
 - !private "=="
+- "UILabel"
+- "UIViewController"
+- !private "BooleanLiteralType"
 - "UIColor"
 - "ViewController"
-- !private "BooleanLiteralType"
-- !private "/"
-- "UIViewController"
+- "String"
 depends-member:
 - !private ["Ps9AnyObject", "String"]
 - !private ["Ps9AnyObject", "UIColor"]

@@ -6,42 +6,43 @@ provides-nominal:
 provides-member:
 - ["C7hw2Test19TableViewController", ""]
 provides-dynamic-lookup:
-- "viewDidLoad"
-- "didReceiveMemoryWarning"
 - "prepareForSegue"
+- "didReceiveMemoryWarning"
 - "numberOfSectionsInTableView"
+- "viewDidLoad"
+- "tableView"
+- "tableView"
+- "tableView"
 - "pickLineColor"
-- "tableView"
-- "tableView"
-- "tableView"
 depends-top-level:
-- !private "..."
-- !private "StringLiteralType"
-- "UIColor"
-- !private "print"
-- !private "ViewController"
-- "AnyObject"
-- !private "Array"
-- "UITableView"
-- !private "Bool"
-- "String"
-- "TableViewController"
-- !private "=="
 - !private "~="
-- "NSIndexPath"
-- "Line"
-- !private "NSBundle"
-- !private "Mapper"
-- "UIStoryboardSegue"
-- !private "MyTableViewCell"
-- !private "<"
-- !private "/"
-- "UITableViewController"
+- !private "=="
+- "String"
+- !private "-"
+- "AnyObject"
 - "Station"
+- "UIStoryboardSegue"
+- !private "Array"
+- !private "MyTableViewCell"
+- !private "print"
+- "NSIndexPath"
+- "UITableViewController"
 - "UITableViewCell"
 - "Dictionary"
+- !private "<"
+- !private "/"
+- !private "StringLiteralType"
+- "UITableView"
+- !private "Mapper"
 - "Int"
-- !private "-"
+- !private "NSBundle"
+- !private "BooleanLiteralType"
+- "UIColor"
+- !private "Bool"
+- "TableViewController"
+- "Line"
+- !private "ViewController"
+- !private "..."
 depends-member:
 - !private ["Ps9AnyObject", "Line"]
 - ["Ps9AnyObject", "MRTstations"]
@@ -52,18 +53,21 @@ depends-member:
 - !private ["Ps9AnyObject", "alpha"]
 - !private ["Ps9AnyObject", "backgroundColor"]
 - !private ["Ps9AnyObject", "blackColor"]
+- !private ["Ps9AnyObject", "cornerRadius"]
 - !private ["Ps9AnyObject", "dequeueReusableCellWithIdentifier"]
 - !private ["Ps9AnyObject", "destinationViewController"]
 - ["Ps9AnyObject", "didReceiveMemoryWarning"]
 - !private ["Ps9AnyObject", "identifier"]
 - !private ["Ps9AnyObject", "indexPathForCell"]
 - ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "layer"]
 - ["Ps9AnyObject", "lineDict"]
 - !private ["Ps9AnyObject", "lineNumLabel"]
 - !private ["Ps9AnyObject", "lineNumLabel2"]
 - ["Ps9AnyObject", "lines"]
 - !private ["Ps9AnyObject", "mainBundle"]
 - !private ["Ps9AnyObject", "mapArray"]
+- !private ["Ps9AnyObject", "masksToBounds"]
 - ["Ps9AnyObject", "numberOfSectionsInTableView"]
 - !private ["Ps9AnyObject", "pathForResource"]
 - ["Ps9AnyObject", "pickLineColor"]
@@ -112,6 +116,10 @@ depends-member:
 - !private ["Sb", "_getBuiltinLogicValue"]
 - !private ["Ps25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
 - !private ["Ps11BooleanType", "_getBuiltinLogicValue"]
+- !private ["CSo7CALayer", "cornerRadius"]
+- !private ["CSo7CALayer", "masksToBounds"]
+- !private ["PSo13CAMediaTiming", "cornerRadius"]
+- !private ["PSo13CAMediaTiming", "masksToBounds"]
 - !private ["V12CoreGraphics7CGFloat", "deinit"]
 - !private ["Ps11CVarArgType", "Distance"]
 - !private ["Ps11CVarArgType", "IntegerLiteralType"]
@@ -126,17 +134,20 @@ depends-member:
 - !private ["Ps11CVarArgType", "alpha"]
 - !private ["Ps11CVarArgType", "backgroundColor"]
 - !private ["Ps11CVarArgType", "blackColor"]
+- !private ["Ps11CVarArgType", "cornerRadius"]
 - !private ["Ps11CVarArgType", "dequeueReusableCellWithIdentifier"]
 - !private ["Ps11CVarArgType", "destinationViewController"]
 - ["Ps11CVarArgType", "didReceiveMemoryWarning"]
 - !private ["Ps11CVarArgType", "identifier"]
 - !private ["Ps11CVarArgType", "indexPathForCell"]
 - ["Ps11CVarArgType", "init"]
+- !private ["Ps11CVarArgType", "layer"]
 - ["Ps11CVarArgType", "lineDict"]
 - !private ["Ps11CVarArgType", "lineNumLabel"]
 - !private ["Ps11CVarArgType", "lineNumLabel2"]
 - ["Ps11CVarArgType", "lines"]
 - !private ["Ps11CVarArgType", "mainBundle"]
+- !private ["Ps11CVarArgType", "masksToBounds"]
 - ["Ps11CVarArgType", "numberOfSectionsInTableView"]
 - !private ["Ps11CVarArgType", "pathForResource"]
 - ["Ps11CVarArgType", "pickLineColor"]
@@ -187,6 +198,7 @@ depends-member:
 - !private ["Ps28CustomDebugStringConvertible", "append"]
 - !private ["Ps28CustomDebugStringConvertible", "backgroundColor"]
 - !private ["Ps28CustomDebugStringConvertible", "blackColor"]
+- !private ["Ps28CustomDebugStringConvertible", "cornerRadius"]
 - !private ["Ps28CustomDebugStringConvertible", "count"]
 - !private ["Ps28CustomDebugStringConvertible", "dequeueReusableCellWithIdentifier"]
 - !private ["Ps28CustomDebugStringConvertible", "destinationViewController"]
@@ -195,11 +207,13 @@ depends-member:
 - !private ["Ps28CustomDebugStringConvertible", "indexPathForCell"]
 - ["Ps28CustomDebugStringConvertible", "init"]
 - !private ["Ps28CustomDebugStringConvertible", "keys"]
+- !private ["Ps28CustomDebugStringConvertible", "layer"]
 - ["Ps28CustomDebugStringConvertible", "lineDict"]
 - !private ["Ps28CustomDebugStringConvertible", "lineNumLabel"]
 - !private ["Ps28CustomDebugStringConvertible", "lineNumLabel2"]
 - ["Ps28CustomDebugStringConvertible", "lines"]
 - !private ["Ps28CustomDebugStringConvertible", "mainBundle"]
+- !private ["Ps28CustomDebugStringConvertible", "masksToBounds"]
 - ["Ps28CustomDebugStringConvertible", "numberOfSectionsInTableView"]
 - !private ["Ps28CustomDebugStringConvertible", "pathForResource"]
 - ["Ps28CustomDebugStringConvertible", "pickLineColor"]
@@ -237,6 +251,7 @@ depends-member:
 - !private ["Ps23CustomStringConvertible", "append"]
 - !private ["Ps23CustomStringConvertible", "backgroundColor"]
 - !private ["Ps23CustomStringConvertible", "blackColor"]
+- !private ["Ps23CustomStringConvertible", "cornerRadius"]
 - !private ["Ps23CustomStringConvertible", "count"]
 - !private ["Ps23CustomStringConvertible", "dequeueReusableCellWithIdentifier"]
 - !private ["Ps23CustomStringConvertible", "destinationViewController"]
@@ -245,11 +260,13 @@ depends-member:
 - !private ["Ps23CustomStringConvertible", "indexPathForCell"]
 - ["Ps23CustomStringConvertible", "init"]
 - !private ["Ps23CustomStringConvertible", "keys"]
+- !private ["Ps23CustomStringConvertible", "layer"]
 - ["Ps23CustomStringConvertible", "lineDict"]
 - !private ["Ps23CustomStringConvertible", "lineNumLabel"]
 - !private ["Ps23CustomStringConvertible", "lineNumLabel2"]
 - ["Ps23CustomStringConvertible", "lines"]
 - !private ["Ps23CustomStringConvertible", "mainBundle"]
+- !private ["Ps23CustomStringConvertible", "masksToBounds"]
 - ["Ps23CustomStringConvertible", "numberOfSectionsInTableView"]
 - !private ["Ps23CustomStringConvertible", "pathForResource"]
 - ["Ps23CustomStringConvertible", "pickLineColor"]
@@ -300,17 +317,20 @@ depends-member:
 - !private ["Ps9Equatable", "alpha"]
 - !private ["Ps9Equatable", "backgroundColor"]
 - !private ["Ps9Equatable", "blackColor"]
+- !private ["Ps9Equatable", "cornerRadius"]
 - !private ["Ps9Equatable", "dequeueReusableCellWithIdentifier"]
 - !private ["Ps9Equatable", "destinationViewController"]
 - ["Ps9Equatable", "didReceiveMemoryWarning"]
 - !private ["Ps9Equatable", "identifier"]
 - !private ["Ps9Equatable", "indexPathForCell"]
 - ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "layer"]
 - ["Ps9Equatable", "lineDict"]
 - !private ["Ps9Equatable", "lineNumLabel"]
 - !private ["Ps9Equatable", "lineNumLabel2"]
 - ["Ps9Equatable", "lines"]
 - !private ["Ps9Equatable", "mainBundle"]
+- !private ["Ps9Equatable", "masksToBounds"]
 - ["Ps9Equatable", "numberOfSectionsInTableView"]
 - !private ["Ps9Equatable", "pathForResource"]
 - ["Ps9Equatable", "pickLineColor"]
@@ -344,17 +364,20 @@ depends-member:
 - !private ["Ps8Hashable", "alpha"]
 - !private ["Ps8Hashable", "backgroundColor"]
 - !private ["Ps8Hashable", "blackColor"]
+- !private ["Ps8Hashable", "cornerRadius"]
 - !private ["Ps8Hashable", "dequeueReusableCellWithIdentifier"]
 - !private ["Ps8Hashable", "destinationViewController"]
 - ["Ps8Hashable", "didReceiveMemoryWarning"]
 - !private ["Ps8Hashable", "identifier"]
 - !private ["Ps8Hashable", "indexPathForCell"]
 - ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "layer"]
 - ["Ps8Hashable", "lineDict"]
 - !private ["Ps8Hashable", "lineNumLabel"]
 - !private ["Ps8Hashable", "lineNumLabel2"]
 - ["Ps8Hashable", "lines"]
 - !private ["Ps8Hashable", "mainBundle"]
+- !private ["Ps8Hashable", "masksToBounds"]
 - ["Ps8Hashable", "numberOfSectionsInTableView"]
 - !private ["Ps8Hashable", "pathForResource"]
 - ["Ps8Hashable", "pickLineColor"]
@@ -463,14 +486,17 @@ depends-member:
 - !private ["PSo8NSCoding", "alpha"]
 - !private ["PSo8NSCoding", "backgroundColor"]
 - !private ["PSo8NSCoding", "blackColor"]
+- !private ["PSo8NSCoding", "cornerRadius"]
 - !private ["PSo8NSCoding", "dequeueReusableCellWithIdentifier"]
 - ["PSo8NSCoding", "didReceiveMemoryWarning"]
 - !private ["PSo8NSCoding", "indexPathForCell"]
 - ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "layer"]
 - ["PSo8NSCoding", "lineDict"]
 - !private ["PSo8NSCoding", "lineNumLabel"]
 - !private ["PSo8NSCoding", "lineNumLabel2"]
 - ["PSo8NSCoding", "lines"]
+- !private ["PSo8NSCoding", "masksToBounds"]
 - ["PSo8NSCoding", "numberOfSectionsInTableView"]
 - ["PSo8NSCoding", "pickLineColor"]
 - ["PSo8NSCoding", "prepareForSegue"]
@@ -526,6 +552,7 @@ depends-member:
 - !private ["CSo8NSObject", "alpha"]
 - !private ["CSo8NSObject", "backgroundColor"]
 - !private ["CSo8NSObject", "blackColor"]
+- !private ["CSo8NSObject", "cornerRadius"]
 - !private ["CSo8NSObject", "deinit"]
 - !private ["CSo8NSObject", "dequeueReusableCellWithIdentifier"]
 - !private ["CSo8NSObject", "destinationViewController"]
@@ -533,11 +560,13 @@ depends-member:
 - !private ["CSo8NSObject", "identifier"]
 - !private ["CSo8NSObject", "indexPathForCell"]
 - ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "layer"]
 - ["CSo8NSObject", "lineDict"]
 - !private ["CSo8NSObject", "lineNumLabel"]
 - !private ["CSo8NSObject", "lineNumLabel2"]
 - ["CSo8NSObject", "lines"]
 - !private ["CSo8NSObject", "mainBundle"]
+- !private ["CSo8NSObject", "masksToBounds"]
 - ["CSo8NSObject", "numberOfSectionsInTableView"]
 - !private ["CSo8NSObject", "pathForResource"]
 - ["CSo8NSObject", "pickLineColor"]
@@ -559,17 +588,20 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "alpha"]
 - !private ["PSo16NSObjectProtocol", "backgroundColor"]
 - !private ["PSo16NSObjectProtocol", "blackColor"]
+- !private ["PSo16NSObjectProtocol", "cornerRadius"]
 - !private ["PSo16NSObjectProtocol", "dequeueReusableCellWithIdentifier"]
 - !private ["PSo16NSObjectProtocol", "destinationViewController"]
 - ["PSo16NSObjectProtocol", "didReceiveMemoryWarning"]
 - !private ["PSo16NSObjectProtocol", "identifier"]
 - !private ["PSo16NSObjectProtocol", "indexPathForCell"]
 - ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "layer"]
 - ["PSo16NSObjectProtocol", "lineDict"]
 - !private ["PSo16NSObjectProtocol", "lineNumLabel"]
 - !private ["PSo16NSObjectProtocol", "lineNumLabel2"]
 - ["PSo16NSObjectProtocol", "lines"]
 - !private ["PSo16NSObjectProtocol", "mainBundle"]
+- !private ["PSo16NSObjectProtocol", "masksToBounds"]
 - ["PSo16NSObjectProtocol", "numberOfSectionsInTableView"]
 - !private ["PSo16NSObjectProtocol", "pathForResource"]
 - ["PSo16NSObjectProtocol", "pickLineColor"]
@@ -676,6 +708,7 @@ depends-member:
 - !private ["PSo29UIAccessibilityIdentification", "backgroundColor"]
 - !private ["PSo29UIAccessibilityIdentification", "dequeueReusableCellWithIdentifier"]
 - !private ["PSo29UIAccessibilityIdentification", "indexPathForCell"]
+- !private ["PSo29UIAccessibilityIdentification", "layer"]
 - !private ["PSo29UIAccessibilityIdentification", "lineNumLabel"]
 - !private ["PSo29UIAccessibilityIdentification", "lineNumLabel2"]
 - !private ["PSo29UIAccessibilityIdentification", "stationNameLabel"]
@@ -684,6 +717,7 @@ depends-member:
 - !private ["PSo12UIAppearance", "backgroundColor"]
 - !private ["PSo12UIAppearance", "dequeueReusableCellWithIdentifier"]
 - !private ["PSo12UIAppearance", "indexPathForCell"]
+- !private ["PSo12UIAppearance", "layer"]
 - !private ["PSo12UIAppearance", "lineNumLabel"]
 - !private ["PSo12UIAppearance", "lineNumLabel2"]
 - !private ["PSo12UIAppearance", "stationNameLabel"]
@@ -700,6 +734,7 @@ depends-member:
 - ["PSo21UIAppearanceContainer", "didReceiveMemoryWarning"]
 - !private ["PSo21UIAppearanceContainer", "indexPathForCell"]
 - ["PSo21UIAppearanceContainer", "init"]
+- !private ["PSo21UIAppearanceContainer", "layer"]
 - ["PSo21UIAppearanceContainer", "lineDict"]
 - !private ["PSo21UIAppearanceContainer", "lineNumLabel"]
 - !private ["PSo21UIAppearanceContainer", "lineNumLabel2"]
@@ -738,6 +773,7 @@ depends-member:
 - !private ["PSo17UICoordinateSpace", "backgroundColor"]
 - !private ["PSo17UICoordinateSpace", "dequeueReusableCellWithIdentifier"]
 - !private ["PSo17UICoordinateSpace", "indexPathForCell"]
+- !private ["PSo17UICoordinateSpace", "layer"]
 - !private ["PSo17UICoordinateSpace", "lineNumLabel"]
 - !private ["PSo17UICoordinateSpace", "lineNumLabel2"]
 - !private ["PSo17UICoordinateSpace", "stationNameLabel"]
@@ -746,6 +782,7 @@ depends-member:
 - !private ["PSo13UIDynamicItem", "backgroundColor"]
 - !private ["PSo13UIDynamicItem", "dequeueReusableCellWithIdentifier"]
 - !private ["PSo13UIDynamicItem", "indexPathForCell"]
+- !private ["PSo13UIDynamicItem", "layer"]
 - !private ["PSo13UIDynamicItem", "lineNumLabel"]
 - !private ["PSo13UIDynamicItem", "lineNumLabel2"]
 - !private ["PSo13UIDynamicItem", "stationNameLabel"]
@@ -762,6 +799,7 @@ depends-member:
 - ["PSo18UIFocusEnvironment", "didReceiveMemoryWarning"]
 - !private ["PSo18UIFocusEnvironment", "indexPathForCell"]
 - ["PSo18UIFocusEnvironment", "init"]
+- !private ["PSo18UIFocusEnvironment", "layer"]
 - ["PSo18UIFocusEnvironment", "lineDict"]
 - !private ["PSo18UIFocusEnvironment", "lineNumLabel"]
 - !private ["PSo18UIFocusEnvironment", "lineNumLabel2"]
@@ -781,6 +819,7 @@ depends-member:
 - !private ["PSo27UIGestureRecognizerDelegate", "stationNameLabel"]
 - !private ["CSo7UILabel", "alpha"]
 - !private ["CSo7UILabel", "backgroundColor"]
+- !private ["CSo7UILabel", "layer"]
 - !private ["CSo7UILabel", "text"]
 - ["CSo11UIResponder", "AnyObject"]
 - !private ["CSo11UIResponder", "Bool"]
@@ -804,6 +843,7 @@ depends-member:
 - ["CSo11UIResponder", "didReceiveMemoryWarning"]
 - !private ["CSo11UIResponder", "indexPathForCell"]
 - ["CSo11UIResponder", "init"]
+- !private ["CSo11UIResponder", "layer"]
 - ["CSo11UIResponder", "lineDict"]
 - !private ["CSo11UIResponder", "lineNumLabel"]
 - !private ["CSo11UIResponder", "lineNumLabel2"]
@@ -935,6 +975,7 @@ depends-member:
 - ["PSo18UITraitEnvironment", "didReceiveMemoryWarning"]
 - !private ["PSo18UITraitEnvironment", "indexPathForCell"]
 - ["PSo18UITraitEnvironment", "init"]
+- !private ["PSo18UITraitEnvironment", "layer"]
 - ["PSo18UITraitEnvironment", "lineDict"]
 - !private ["PSo18UITraitEnvironment", "lineNumLabel"]
 - !private ["PSo18UITraitEnvironment", "lineNumLabel2"]
@@ -953,6 +994,7 @@ depends-member:
 - !private ["CSo6UIView", "backgroundColor"]
 - !private ["CSo6UIView", "dequeueReusableCellWithIdentifier"]
 - !private ["CSo6UIView", "indexPathForCell"]
+- !private ["CSo6UIView", "layer"]
 - !private ["CSo6UIView", "lineNumLabel"]
 - !private ["CSo6UIView", "lineNumLabel2"]
 - !private ["CSo6UIView", "stationNameLabel"]
@@ -1073,6 +1115,7 @@ depends-member:
 - !private ["Ps12_Reflectable", "indexPathForCell"]
 - !private ["Ps12_Reflectable", "init"]
 - !private ["Ps12_Reflectable", "keys"]
+- !private ["Ps12_Reflectable", "layer"]
 - !private ["Ps12_Reflectable", "lineNumLabel"]
 - !private ["Ps12_Reflectable", "lineNumLabel2"]
 - !private ["Ps12_Reflectable", "sort"]
@@ -1093,6 +1136,8 @@ depends-nominal:
 - !private "Sb"
 - !private "Ps25BooleanLiteralConvertible"
 - !private "Ps11BooleanType"
+- !private "CSo7CALayer"
+- !private "PSo13CAMediaTiming"
 - !private "V12CoreGraphics7CGFloat"
 - "Ps11CVarArgType"
 - !private "Vs14ClosedInterval"

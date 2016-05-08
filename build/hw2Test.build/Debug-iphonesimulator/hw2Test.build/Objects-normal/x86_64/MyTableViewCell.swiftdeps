@@ -1,0 +1,247 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MyTableViewCell"
+provides-nominal:
+- "C7hw2Test15MyTableViewCell"
+provides-member:
+- ["C7hw2Test15MyTableViewCell", ""]
+provides-dynamic-lookup:
+- "stationNameLabel"
+- "linesStackView"
+- "lineNumLabel2"
+- "setSelected"
+- "awakeFromNib"
+- "lineNumLabel"
+depends-top-level:
+- "UILabel"
+- "UITableViewCell"
+- "Bool"
+- "MyTableViewCell"
+- "UIStackView"
+depends-member:
+- ["Ps9AnyObject", "awakeFromNib"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "lineNumLabel"]
+- ["Ps9AnyObject", "lineNumLabel2"]
+- ["Ps9AnyObject", "linesStackView"]
+- ["Ps9AnyObject", "setSelected"]
+- ["Ps9AnyObject", "stationNameLabel"]
+- ["Ps9AnyObject", ""]
+- ["Ps11CVarArgType", "awakeFromNib"]
+- ["Ps11CVarArgType", "init"]
+- ["Ps11CVarArgType", "lineNumLabel"]
+- ["Ps11CVarArgType", "lineNumLabel2"]
+- ["Ps11CVarArgType", "linesStackView"]
+- ["Ps11CVarArgType", "setSelected"]
+- ["Ps11CVarArgType", "stationNameLabel"]
+- ["Ps11CVarArgType", ""]
+- ["Ps28CustomDebugStringConvertible", "awakeFromNib"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "lineNumLabel"]
+- ["Ps28CustomDebugStringConvertible", "lineNumLabel2"]
+- ["Ps28CustomDebugStringConvertible", "linesStackView"]
+- ["Ps28CustomDebugStringConvertible", "setSelected"]
+- ["Ps28CustomDebugStringConvertible", "stationNameLabel"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- ["Ps23CustomStringConvertible", "awakeFromNib"]
+- ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "lineNumLabel"]
+- ["Ps23CustomStringConvertible", "lineNumLabel2"]
+- ["Ps23CustomStringConvertible", "linesStackView"]
+- ["Ps23CustomStringConvertible", "setSelected"]
+- ["Ps23CustomStringConvertible", "stationNameLabel"]
+- ["Ps23CustomStringConvertible", ""]
+- ["Ps9Equatable", "awakeFromNib"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "lineNumLabel"]
+- ["Ps9Equatable", "lineNumLabel2"]
+- ["Ps9Equatable", "linesStackView"]
+- ["Ps9Equatable", "setSelected"]
+- ["Ps9Equatable", "stationNameLabel"]
+- ["Ps9Equatable", ""]
+- ["Ps8Hashable", "awakeFromNib"]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "lineNumLabel"]
+- ["Ps8Hashable", "lineNumLabel2"]
+- ["Ps8Hashable", "linesStackView"]
+- ["Ps8Hashable", "setSelected"]
+- ["Ps8Hashable", "stationNameLabel"]
+- ["Ps8Hashable", ""]
+- ["C7hw2Test15MyTableViewCell", "Bool"]
+- ["C7hw2Test15MyTableViewCell", "UILabel"]
+- ["C7hw2Test15MyTableViewCell", "UIStackView"]
+- ["C7hw2Test15MyTableViewCell", "awakeFromNib"]
+- ["C7hw2Test15MyTableViewCell", "deinit"]
+- ["C7hw2Test15MyTableViewCell", "init"]
+- ["C7hw2Test15MyTableViewCell", "lineNumLabel"]
+- ["C7hw2Test15MyTableViewCell", "lineNumLabel2"]
+- ["C7hw2Test15MyTableViewCell", "linesStackView"]
+- ["C7hw2Test15MyTableViewCell", "setSelected"]
+- ["C7hw2Test15MyTableViewCell", "stationNameLabel"]
+- ["PSo8NSCoding", "awakeFromNib"]
+- ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", "lineNumLabel"]
+- ["PSo8NSCoding", "lineNumLabel2"]
+- ["PSo8NSCoding", "linesStackView"]
+- ["PSo8NSCoding", "setSelected"]
+- ["PSo8NSCoding", "stationNameLabel"]
+- ["PSo8NSCoding", ""]
+- ["CSo8NSObject", "Bool"]
+- ["CSo8NSObject", "UILabel"]
+- ["CSo8NSObject", "UIStackView"]
+- ["CSo8NSObject", "awakeFromNib"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "lineNumLabel"]
+- ["CSo8NSObject", "lineNumLabel2"]
+- ["CSo8NSObject", "linesStackView"]
+- ["CSo8NSObject", "setSelected"]
+- ["CSo8NSObject", "stationNameLabel"]
+- ["PSo16NSObjectProtocol", "awakeFromNib"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "lineNumLabel"]
+- ["PSo16NSObjectProtocol", "lineNumLabel2"]
+- ["PSo16NSObjectProtocol", "linesStackView"]
+- ["PSo16NSObjectProtocol", "setSelected"]
+- ["PSo16NSObjectProtocol", "stationNameLabel"]
+- ["PSo16NSObjectProtocol", ""]
+- ["PSo29UIAccessibilityIdentification", "awakeFromNib"]
+- ["PSo29UIAccessibilityIdentification", "init"]
+- ["PSo29UIAccessibilityIdentification", "lineNumLabel"]
+- ["PSo29UIAccessibilityIdentification", "lineNumLabel2"]
+- ["PSo29UIAccessibilityIdentification", "linesStackView"]
+- ["PSo29UIAccessibilityIdentification", "setSelected"]
+- ["PSo29UIAccessibilityIdentification", "stationNameLabel"]
+- ["PSo29UIAccessibilityIdentification", ""]
+- ["PSo12UIAppearance", "awakeFromNib"]
+- ["PSo12UIAppearance", "init"]
+- ["PSo12UIAppearance", "lineNumLabel"]
+- ["PSo12UIAppearance", "lineNumLabel2"]
+- ["PSo12UIAppearance", "linesStackView"]
+- ["PSo12UIAppearance", "setSelected"]
+- ["PSo12UIAppearance", "stationNameLabel"]
+- ["PSo12UIAppearance", ""]
+- ["PSo21UIAppearanceContainer", "awakeFromNib"]
+- ["PSo21UIAppearanceContainer", "init"]
+- ["PSo21UIAppearanceContainer", "lineNumLabel"]
+- ["PSo21UIAppearanceContainer", "lineNumLabel2"]
+- ["PSo21UIAppearanceContainer", "linesStackView"]
+- ["PSo21UIAppearanceContainer", "setSelected"]
+- ["PSo21UIAppearanceContainer", "stationNameLabel"]
+- ["PSo21UIAppearanceContainer", ""]
+- ["PSo17UICoordinateSpace", "awakeFromNib"]
+- ["PSo17UICoordinateSpace", "init"]
+- ["PSo17UICoordinateSpace", "lineNumLabel"]
+- ["PSo17UICoordinateSpace", "lineNumLabel2"]
+- ["PSo17UICoordinateSpace", "linesStackView"]
+- ["PSo17UICoordinateSpace", "setSelected"]
+- ["PSo17UICoordinateSpace", "stationNameLabel"]
+- ["PSo17UICoordinateSpace", ""]
+- ["PSo13UIDynamicItem", "awakeFromNib"]
+- ["PSo13UIDynamicItem", "init"]
+- ["PSo13UIDynamicItem", "lineNumLabel"]
+- ["PSo13UIDynamicItem", "lineNumLabel2"]
+- ["PSo13UIDynamicItem", "linesStackView"]
+- ["PSo13UIDynamicItem", "setSelected"]
+- ["PSo13UIDynamicItem", "stationNameLabel"]
+- ["PSo13UIDynamicItem", ""]
+- ["PSo18UIFocusEnvironment", "awakeFromNib"]
+- ["PSo18UIFocusEnvironment", "init"]
+- ["PSo18UIFocusEnvironment", "lineNumLabel"]
+- ["PSo18UIFocusEnvironment", "lineNumLabel2"]
+- ["PSo18UIFocusEnvironment", "linesStackView"]
+- ["PSo18UIFocusEnvironment", "setSelected"]
+- ["PSo18UIFocusEnvironment", "stationNameLabel"]
+- ["PSo18UIFocusEnvironment", ""]
+- ["PSo27UIGestureRecognizerDelegate", "awakeFromNib"]
+- ["PSo27UIGestureRecognizerDelegate", "init"]
+- ["PSo27UIGestureRecognizerDelegate", "lineNumLabel"]
+- ["PSo27UIGestureRecognizerDelegate", "lineNumLabel2"]
+- ["PSo27UIGestureRecognizerDelegate", "linesStackView"]
+- ["PSo27UIGestureRecognizerDelegate", "setSelected"]
+- ["PSo27UIGestureRecognizerDelegate", "stationNameLabel"]
+- ["PSo27UIGestureRecognizerDelegate", ""]
+- ["CSo11UIResponder", "Bool"]
+- ["CSo11UIResponder", "UILabel"]
+- ["CSo11UIResponder", "UIStackView"]
+- ["CSo11UIResponder", "awakeFromNib"]
+- ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "lineNumLabel"]
+- ["CSo11UIResponder", "lineNumLabel2"]
+- ["CSo11UIResponder", "linesStackView"]
+- ["CSo11UIResponder", "setSelected"]
+- ["CSo11UIResponder", "stationNameLabel"]
+- ["CSo15UITableViewCell", "Bool"]
+- ["CSo15UITableViewCell", "UILabel"]
+- ["CSo15UITableViewCell", "UIStackView"]
+- ["CSo15UITableViewCell", "awakeFromNib"]
+- ["CSo15UITableViewCell", "init"]
+- ["CSo15UITableViewCell", "lineNumLabel"]
+- ["CSo15UITableViewCell", "lineNumLabel2"]
+- ["CSo15UITableViewCell", "linesStackView"]
+- ["CSo15UITableViewCell", "setSelected"]
+- ["CSo15UITableViewCell", "stationNameLabel"]
+- ["CSo15UITableViewCell", ""]
+- ["PSo18UITraitEnvironment", "awakeFromNib"]
+- ["PSo18UITraitEnvironment", "init"]
+- ["PSo18UITraitEnvironment", "lineNumLabel"]
+- ["PSo18UITraitEnvironment", "lineNumLabel2"]
+- ["PSo18UITraitEnvironment", "linesStackView"]
+- ["PSo18UITraitEnvironment", "setSelected"]
+- ["PSo18UITraitEnvironment", "stationNameLabel"]
+- ["PSo18UITraitEnvironment", ""]
+- ["CSo6UIView", "Bool"]
+- ["CSo6UIView", "UILabel"]
+- ["CSo6UIView", "UIStackView"]
+- ["CSo6UIView", "awakeFromNib"]
+- ["CSo6UIView", "init"]
+- ["CSo6UIView", "lineNumLabel"]
+- ["CSo6UIView", "lineNumLabel2"]
+- ["CSo6UIView", "linesStackView"]
+- ["CSo6UIView", "setSelected"]
+- ["CSo6UIView", "stationNameLabel"]
+- ["Ps12_Reflectable", "awakeFromNib"]
+- ["Ps12_Reflectable", "init"]
+- ["Ps12_Reflectable", "lineNumLabel"]
+- ["Ps12_Reflectable", "lineNumLabel2"]
+- ["Ps12_Reflectable", "linesStackView"]
+- ["Ps12_Reflectable", "setSelected"]
+- ["Ps12_Reflectable", "stationNameLabel"]
+- ["Ps12_Reflectable", ""]
+depends-nominal:
+- "Ps9AnyObject"
+- "Ps11CVarArgType"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps8Hashable"
+- "C7hw2Test15MyTableViewCell"
+- "PSo8NSCoding"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSo29UIAccessibilityIdentification"
+- "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "PSo17UICoordinateSpace"
+- "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- "PSo27UIGestureRecognizerDelegate"
+- "CSo11UIResponder"
+- "CSo15UITableViewCell"
+- "PSo18UITraitEnvironment"
+- "CSo6UIView"
+- "Ps12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/spadakao/Documents/ios/hw2Test/build/Debug-iphonesimulator/ObjectMapper.framework/Modules/ObjectMapper.swiftmodule/x86_64.swiftmodule"
+- "/Users/spadakao/Documents/ios/hw2Test/build/Debug-iphonesimulator/ObjectMapper.framework/Headers/ObjectMapper-Swift.h"
+- "/Users/spadakao/Documents/ios/hw2Test/build/Debug-iphonesimulator/ObjectMapper.framework/Headers/ObjectMapper-umbrella.h"
+- "/Users/spadakao/Documents/ios/hw2Test/build/Debug-iphonesimulator/ObjectMapper.framework/Modules/module.modulemap"
+interface-hash: "c3a49f3b1344bb1566591b76ae200653"

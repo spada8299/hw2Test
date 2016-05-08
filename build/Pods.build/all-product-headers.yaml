@@ -1,0 +1,329 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/spadakao/Documents/ios/hw2Test/build/Debug-iphonesimulator/AFNetworking.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "AFHTTPRequestOperation.h",
+          'external-contents': "/Users/spadakao/Documents/ios/hw2Test/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperation.h"
+        },
+        {
+          'type': 'file',
+          'name': "AFHTTPRequestOperationManager.h",
+          'external-contents': "/Users/spadakao/Documents/ios/hw2Test/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperationManager.h"
+        },
+        {
+          'type': 'file',
+          'name': "AFHTTPSessionManager.h",
+          'external-contents': "/Users/spadakao/Documents/ios/hw2Test/Pods/AFNetworking/AFNetworking/AFHTTPSessionManager.h"
+        },
+        {
+          'type': 'file',
+          'name': "AFNetworkActivityIndicatorManager.h",
+          'external-contents': "/Users/spadakao/Documents/ios/hw2Test/Pods/AFNetworking/UIKit+AFNetworking/AFNetworkActivityIndicatorManager.h"
+        },
+        {
+          'type': 'file',
+          'name': "AFNetworkReachabilityManager.h",
+          'external-contents': "/Users/spadakao/Documents/ios/hw2Test/Pods/AFNetworking/AFNetworking/AFNetworkReachabilityManager.h"
+        },
+        {
+          'type': 'file',
+          'name': "AFNetworking-Swift.h",
+          'external-contents': "/Users/spadakao/Documents/ios/hw2Test/build/Debug-iphonesimulator/AFNetworking.framework/Headers/AFNetworking-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "AFNetworking-umbrella.h",
+          'external-contents': "/Users/spadakao/Documents/ios/hw2Test/Pods/Target Support Files/AFNetworking/AFNetworking-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "AFNetworking.h",
+          'external-contents': "/Users/spadakao/Documents/ios/hw2Test/Pods/AFNetworking/AFNetworking/AFNetworking.h"
+        },
+        {
+          'type': 'file',
+          'name': "AFSecurityPolicy.h",
+          'external-contents': "/Users/spadakao/Documents/ios/hw2Test/Pods/AFNetworking/AFNetworking/AFSecurityPolicy.h"
+        },
+        {
+          'type': 'file',
+          'name': "AFURLConnectionOperation.h",
+          'external-contents': "/Users/spadakao/Documents/ios/hw2Test/Pods/AFNetworking/AFNetworking/AFURLConnectionOperation.h"
+        },
+        {
+          'type': 'file',
+          'name': "AFURLRequestSerialization.h",
+          'external-contents': "/Users/spadakao/Documents/ios/hw2Test/Pods/AFNetworking/AFNetworking/AFURLRequestSerialization.h"
+        },
+        {
+          'type': 'file',
+          'name': "AFURLResponseSerialization.h",
+          'external-contents': "/Users/spadakao/Documents/ios/hw2Test/Pods/AFNetworking/AFNetworking/AFURLResponseSerialization.h"
+        },
+        {
+          'type': 'file',
+          'name': "AFURLSessionManager.h",
+          'external-contents': "/Users/spadakao/Documents/ios/hw2Test/Pods/AFNetworking/AFNetworking/AFURLSessionManager.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIActivityIndicatorView+AFNetworking.h",
+          'external-contents': "/Users/spadakao/Documents/ios/hw2Test/Pods/AFNetworking/UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIAlertView+AFNetworking.h",
+          'external-contents': "/Users/spadakao/Documents/ios/hw2Test/Pods/AFNetworking/UIKit+AFNetworking/UIAlertView+AFNetworking.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIButton+AFNetworking.h",
+          'external-contents': "/Users/spadakao/Documents/ios/hw2Test/Pods/AFNetworking/UIKit+AFNetworking/UIButton+AFNetworking.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIImage+AFNetworking.h",
+          'external-contents': "/Users/spadakao/Documents/ios/hw2Test/Pods/AFNetworking/UIKit+AFNetworking/UIImage+AFNetworking.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIImageView+AFNetworking.h",
+          'external-contents': "/Users/spadakao/Documents/ios/hw2Test/Pods/AFNetworking/UIKit+AFNetworking/UIImageView+AFNetworking.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIKit+AFNetworking.h",
+          'external-contents': "/Users/spadakao/Documents/ios/hw2Test/Pods/AFNetworking/UIKit+AFNetworking/UIKit+AFNetworking.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIProgressView+AFNetworking.h",
+          'external-contents': "/Users/spadakao/Documents/ios/hw2Test/Pods/AFNetworking/UIKit+AFNetworking/UIProgressView+AFNetworking.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIRefreshControl+AFNetworking.h",
+          'external-contents': "/Users/spadakao/Documents/ios/hw2Test/Pods/AFNetworking/UIKit+AFNetworking/UIRefreshControl+AFNetworking.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIWebView+AFNetworking.h",
+          'external-contents': "/Users/spadakao/Documents/ios/hw2Test/Pods/AFNetworking/UIKit+AFNetworking/UIWebView+AFNetworking.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/spadakao/Documents/ios/hw2Test/build/Debug-iphonesimulator/AFNetworking.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/spadakao/Documents/ios/hw2Test/build/Pods.build/Debug-iphonesimulator/AFNetworking.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/spadakao/Documents/ios/hw2Test/build/Debug-iphonesimulator/FLKAutoLayout.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "FLKAutoLayout-Swift.h",
+          'external-contents': "/Users/spadakao/Documents/ios/hw2Test/build/Debug-iphonesimulator/FLKAutoLayout.framework/Headers/FLKAutoLayout-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "FLKAutoLayout-umbrella.h",
+          'external-contents': "/Users/spadakao/Documents/ios/hw2Test/Pods/Target Support Files/FLKAutoLayout/FLKAutoLayout-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "FLKAutoLayoutPredicateList.h",
+          'external-contents': "/Users/spadakao/Documents/ios/hw2Test/Pods/FLKAutoLayout/FLKAutoLayout/FLKAutoLayoutPredicateList.h"
+        },
+        {
+          'type': 'file',
+          'name': "NSLayoutConstraint+FLKAutoLayoutDebug.h",
+          'external-contents': "/Users/spadakao/Documents/ios/hw2Test/Pods/FLKAutoLayout/FLKAutoLayout/NSLayoutConstraint+FLKAutoLayoutDebug.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIView+FLKAutoLayout.h",
+          'external-contents': "/Users/spadakao/Documents/ios/hw2Test/Pods/FLKAutoLayout/FLKAutoLayout/UIView+FLKAutoLayout.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIView+FLKAutoLayoutDebug.h",
+          'external-contents': "/Users/spadakao/Documents/ios/hw2Test/Pods/FLKAutoLayout/FLKAutoLayout/UIView+FLKAutoLayoutDebug.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIView+FLKAutoLayoutPredicate.h",
+          'external-contents': "/Users/spadakao/Documents/ios/hw2Test/Pods/FLKAutoLayout/FLKAutoLayout/UIView+FLKAutoLayoutPredicate.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/spadakao/Documents/ios/hw2Test/build/Debug-iphonesimulator/FLKAutoLayout.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/spadakao/Documents/ios/hw2Test/build/Pods.build/Debug-iphonesimulator/FLKAutoLayout.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/spadakao/Documents/ios/hw2Test/build/Debug-iphonesimulator/ORStackView.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "ORSplitStackView.h",
+          'external-contents': "/Users/spadakao/Documents/ios/hw2Test/Pods/ORStackView/Classes/ios/ORSplitStackView.h"
+        },
+        {
+          'type': 'file',
+          'name': "ORStackScrollView.h",
+          'external-contents': "/Users/spadakao/Documents/ios/hw2Test/Pods/ORStackView/Classes/ios/ORStackScrollView.h"
+        },
+        {
+          'type': 'file',
+          'name': "ORStackView-Swift.h",
+          'external-contents': "/Users/spadakao/Documents/ios/hw2Test/build/Debug-iphonesimulator/ORStackView.framework/Headers/ORStackView-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "ORStackView-umbrella.h",
+          'external-contents': "/Users/spadakao/Documents/ios/hw2Test/Pods/Target Support Files/ORStackView/ORStackView-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "ORStackView.h",
+          'external-contents': "/Users/spadakao/Documents/ios/hw2Test/Pods/ORStackView/Classes/ios/ORStackView.h"
+        },
+        {
+          'type': 'file',
+          'name': "ORStackViewController.h",
+          'external-contents': "/Users/spadakao/Documents/ios/hw2Test/Pods/ORStackView/Classes/ios/ORStackViewController.h"
+        },
+        {
+          'type': 'file',
+          'name': "ORTagBasedAutoStackView.h",
+          'external-contents': "/Users/spadakao/Documents/ios/hw2Test/Pods/ORStackView/Classes/ios/ORTagBasedAutoStackView.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/spadakao/Documents/ios/hw2Test/build/Debug-iphonesimulator/ORStackView.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/spadakao/Documents/ios/hw2Test/build/Pods.build/Debug-iphonesimulator/ORStackView.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/spadakao/Documents/ios/hw2Test/build/Debug-iphonesimulator/ORStackView.framework/PrivateHeaders",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "ORStackView+Private.h",
+          'external-contents': "/Users/spadakao/Documents/ios/hw2Test/Pods/ORStackView/Classes/ios/private/ORStackView+Private.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/spadakao/Documents/ios/hw2Test/build/Debug-iphonesimulator/ObjectMapper.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "ObjectMapper-Swift.h",
+          'external-contents': "/Users/spadakao/Documents/ios/hw2Test/build/Debug-iphonesimulator/ObjectMapper.framework/Headers/ObjectMapper-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "ObjectMapper-umbrella.h",
+          'external-contents': "/Users/spadakao/Documents/ios/hw2Test/Pods/Target Support Files/ObjectMapper/ObjectMapper-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/spadakao/Documents/ios/hw2Test/build/Debug-iphonesimulator/ObjectMapper.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/spadakao/Documents/ios/hw2Test/build/Pods.build/Debug-iphonesimulator/ObjectMapper.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/spadakao/Documents/ios/hw2Test/build/Debug-iphonesimulator/Pods_hw2Test.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Pods-hw2Test-umbrella.h",
+          'external-contents': "/Users/spadakao/Documents/ios/hw2Test/Pods/Target Support Files/Pods-hw2Test/Pods-hw2Test-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Pods_hw2Test-Swift.h",
+          'external-contents': "/Users/spadakao/Documents/ios/hw2Test/build/Debug-iphonesimulator/Pods_hw2Test.framework/Headers/Pods_hw2Test-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/spadakao/Documents/ios/hw2Test/build/Debug-iphonesimulator/Pods_hw2Test.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/spadakao/Documents/ios/hw2Test/build/Pods.build/Debug-iphonesimulator/Pods-hw2Test.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/spadakao/Documents/ios/hw2Test/build/Debug-iphonesimulator/SwiftyJSON.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "SwiftyJSON-Swift.h",
+          'external-contents': "/Users/spadakao/Documents/ios/hw2Test/build/Debug-iphonesimulator/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "SwiftyJSON-umbrella.h",
+          'external-contents': "/Users/spadakao/Documents/ios/hw2Test/Pods/Target Support Files/SwiftyJSON/SwiftyJSON-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/spadakao/Documents/ios/hw2Test/build/Debug-iphonesimulator/SwiftyJSON.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/spadakao/Documents/ios/hw2Test/build/Pods.build/Debug-iphonesimulator/SwiftyJSON.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

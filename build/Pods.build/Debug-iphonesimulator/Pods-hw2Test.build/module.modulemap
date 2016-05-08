@@ -1,0 +1,6 @@
+framework module Pods_hw2Test {
+  umbrella header "Pods-hw2Test-umbrella.h"
+
+  export *
+  module * { export * }
+}

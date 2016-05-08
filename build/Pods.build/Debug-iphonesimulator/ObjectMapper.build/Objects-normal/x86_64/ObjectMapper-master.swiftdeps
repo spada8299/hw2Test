@@ -1,0 +1,18 @@
+version: "Apple Swift version 2.2 (swiftlang-703.0.18.1 clang-703.0.29)"
+options: "5fb3c8f930c82cbf79763c2e492c700f"
+build_time: [515921116, 786798000]
+inputs:
+  "/Users/spadakao/Documents/ios/hw2Test/Pods/ObjectMapper/ObjectMapper/Transforms/CustomDateFormatTransform.swift": [515920995, 0]
+  "/Users/spadakao/Documents/ios/hw2Test/Pods/ObjectMapper/ObjectMapper/Transforms/DateFormatterTransform.swift": [515920995, 0]
+  "/Users/spadakao/Documents/ios/hw2Test/Pods/ObjectMapper/ObjectMapper/Transforms/DateTransform.swift": [515920995, 0]
+  "/Users/spadakao/Documents/ios/hw2Test/Pods/ObjectMapper/ObjectMapper/Transforms/EnumTransform.swift": [515920995, 0]
+  "/Users/spadakao/Documents/ios/hw2Test/Pods/ObjectMapper/ObjectMapper/Core/FromJSON.swift": [515920995, 0]
+  "/Users/spadakao/Documents/ios/hw2Test/Pods/ObjectMapper/ObjectMapper/Transforms/ISO8601DateTransform.swift": [515920995, 0]
+  "/Users/spadakao/Documents/ios/hw2Test/Pods/ObjectMapper/ObjectMapper/Core/Map.swift": [515920995, 0]
+  "/Users/spadakao/Documents/ios/hw2Test/Pods/ObjectMapper/ObjectMapper/Core/Mappable.swift": [515920995, 0]
+  "/Users/spadakao/Documents/ios/hw2Test/Pods/ObjectMapper/ObjectMapper/Core/Mapper.swift": [515920995, 0]
+  "/Users/spadakao/Documents/ios/hw2Test/Pods/ObjectMapper/ObjectMapper/Core/Operators.swift": [515920995, 0]
+  "/Users/spadakao/Documents/ios/hw2Test/Pods/ObjectMapper/ObjectMapper/Core/ToJSON.swift": [515920995, 0]
+  "/Users/spadakao/Documents/ios/hw2Test/Pods/ObjectMapper/ObjectMapper/Transforms/TransformOf.swift": [515920995, 0]
+  "/Users/spadakao/Documents/ios/hw2Test/Pods/ObjectMapper/ObjectMapper/Transforms/TransformType.swift": [515920995, 0]
+  "/Users/spadakao/Documents/ios/hw2Test/Pods/ObjectMapper/ObjectMapper/Transforms/URLTransform.swift": [515920995, 0]

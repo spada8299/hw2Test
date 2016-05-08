@@ -1,0 +1,5 @@
+version: "Apple Swift version 2.2 (swiftlang-703.0.18.1 clang-703.0.29)"
+options: "168834932950032ed2ad141798ccf199"
+build_time: [515921110, 997957000]
+inputs:
+  "/Users/spadakao/Documents/ios/hw2Test/Pods/SwiftyJSON/Source/SwiftyJSON.swift": [515920995, 0]

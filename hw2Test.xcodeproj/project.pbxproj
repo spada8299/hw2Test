@@ -7,11 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0EB3B4F4E623188F7ED98910 /* Pods_hw2Test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E82EAD07E22A4A3622E0C5AE /* Pods_hw2Test.framework */; };
 		16F3B6F51CD1F14B004CCDC9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F3B6F41CD1F14B004CCDC9 /* AppDelegate.swift */; };
 		16F3B6F71CD1F14B004CCDC9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F3B6F61CD1F14B004CCDC9 /* ViewController.swift */; };
 		16F3B6FA1CD1F14B004CCDC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16F3B6F81CD1F14B004CCDC9 /* Main.storyboard */; };
 		16F3B6FC1CD1F14B004CCDC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16F3B6FB1CD1F14B004CCDC9 /* Assets.xcassets */; };
 		16F3B6FF1CD1F14B004CCDC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16F3B6FD1CD1F14B004CCDC9 /* LaunchScreen.storyboard */; };
+		16F3B7071CD1F328004CCDC9 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F3B7061CD1F328004CCDC9 /* TableViewController.swift */; };
+		16F3B7091CDB287F004CCDC9 /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F3B7081CDB287F004CCDC9 /* MyTableViewCell.swift */; };
+		16F3B70D1CDDD056004CCDC9 /* MRT.json in Resources */ = {isa = PBXBuildFile; fileRef = 16F3B70C1CDDD056004CCDC9 /* MRT.json */; };
+		16F3B70F1CDDD082004CCDC9 /* MRTstation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F3B70E1CDDD082004CCDC9 /* MRTstation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,13 @@
 		16F3B6FB1CD1F14B004CCDC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		16F3B6FE1CD1F14B004CCDC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		16F3B7001CD1F14B004CCDC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16F3B7061CD1F328004CCDC9 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		16F3B7081CDB287F004CCDC9 /* MyTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
+		16F3B70C1CDDD056004CCDC9 /* MRT.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MRT.json; sourceTree = "<group>"; };
+		16F3B70E1CDDD082004CCDC9 /* MRTstation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MRTstation.swift; sourceTree = "<group>"; };
+		B7228F9FC2944BE4532E8EC3 /* Pods-hw2Test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hw2Test.debug.xcconfig"; path = "Pods/Target Support Files/Pods-hw2Test/Pods-hw2Test.debug.xcconfig"; sourceTree = "<group>"; };
+		E82EAD07E22A4A3622E0C5AE /* Pods_hw2Test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hw2Test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEBC580C1A39E87EA317887B /* Pods-hw2Test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hw2Test.release.xcconfig"; path = "Pods/Target Support Files/Pods-hw2Test/Pods-hw2Test.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0EB3B4F4E623188F7ED98910 /* Pods_hw2Test.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +53,8 @@
 			children = (
 				16F3B6F31CD1F14B004CCDC9 /* hw2Test */,
 				16F3B6F21CD1F14B004CCDC9 /* Products */,
+				8A2A25E523D4093BEDFB4B82 /* Pods */,
+				FB02E7B0FCDFD3B25FDDB740 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +69,35 @@
 		16F3B6F31CD1F14B004CCDC9 /* hw2Test */ = {
 			isa = PBXGroup;
 			children = (
+				16F3B70C1CDDD056004CCDC9 /* MRT.json */,
 				16F3B6F41CD1F14B004CCDC9 /* AppDelegate.swift */,
 				16F3B6F61CD1F14B004CCDC9 /* ViewController.swift */,
 				16F3B6F81CD1F14B004CCDC9 /* Main.storyboard */,
 				16F3B6FB1CD1F14B004CCDC9 /* Assets.xcassets */,
 				16F3B6FD1CD1F14B004CCDC9 /* LaunchScreen.storyboard */,
 				16F3B7001CD1F14B004CCDC9 /* Info.plist */,
+				16F3B7061CD1F328004CCDC9 /* TableViewController.swift */,
+				16F3B7081CDB287F004CCDC9 /* MyTableViewCell.swift */,
+				16F3B70E1CDDD082004CCDC9 /* MRTstation.swift */,
 			);
 			path = hw2Test;
+			sourceTree = "<group>";
+		};
+		8A2A25E523D4093BEDFB4B82 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B7228F9FC2944BE4532E8EC3 /* Pods-hw2Test.debug.xcconfig */,
+				EEBC580C1A39E87EA317887B /* Pods-hw2Test.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FB02E7B0FCDFD3B25FDDB740 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E82EAD07E22A4A3622E0C5AE /* Pods_hw2Test.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +107,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 16F3B7031CD1F14B004CCDC9 /* Build configuration list for PBXNativeTarget "hw2Test" */;
 			buildPhases = (
+				88F28E599E7CE63D9D940A2A /* Check Pods Manifest.lock */,
 				16F3B6ED1CD1F14B004CCDC9 /* Sources */,
 				16F3B6EE1CD1F14B004CCDC9 /* Frameworks */,
 				16F3B6EF1CD1F14B004CCDC9 /* Resources */,
+				AA98D856753CCD195B981CCE /* Embed Pods Frameworks */,
+				7482B278635B5459DDFC7758 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -125,10 +164,59 @@
 				16F3B6FF1CD1F14B004CCDC9 /* LaunchScreen.storyboard in Resources */,
 				16F3B6FC1CD1F14B004CCDC9 /* Assets.xcassets in Resources */,
 				16F3B6FA1CD1F14B004CCDC9 /* Main.storyboard in Resources */,
+				16F3B70D1CDDD056004CCDC9 /* MRT.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7482B278635B5459DDFC7758 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-hw2Test/Pods-hw2Test-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		88F28E599E7CE63D9D940A2A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AA98D856753CCD195B981CCE /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-hw2Test/Pods-hw2Test-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		16F3B6ED1CD1F14B004CCDC9 /* Sources */ = {
@@ -136,7 +224,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				16F3B6F71CD1F14B004CCDC9 /* ViewController.swift in Sources */,
+				16F3B7091CDB287F004CCDC9 /* MyTableViewCell.swift in Sources */,
+				16F3B7071CD1F328004CCDC9 /* TableViewController.swift in Sources */,
 				16F3B6F51CD1F14B004CCDC9 /* AppDelegate.swift in Sources */,
+				16F3B70F1CDDD082004CCDC9 /* MRTstation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +340,7 @@
 		};
 		16F3B7041CD1F14B004CCDC9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7228F9FC2944BE4532E8EC3 /* Pods-hw2Test.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = hw2Test/Info.plist;
@@ -260,6 +352,7 @@
 		};
 		16F3B7051CD1F14B004CCDC9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEBC580C1A39E87EA317887B /* Pods-hw2Test.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = hw2Test/Info.plist;
@@ -288,6 +381,7 @@
 				16F3B7051CD1F14B004CCDC9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

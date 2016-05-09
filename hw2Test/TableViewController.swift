@@ -86,7 +86,7 @@ class TableViewController: UITableViewController {
         let station = self.lines[indexPath.section].stations[indexPath.row]
         
         let keys = [String](station.lines.keys)
-        print(keys)
+        //print(keys)
         
         // stationNameLabel
         cell.stationNameLabel.text = station.name
